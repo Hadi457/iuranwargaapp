@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:iuranwargaapp/login.dart';
+import 'package:iuranwargaapp/home.dart';
 import 'package:iuranwargaapp/welcome.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WelcomePage()
+      home: WelcomePage(),
     );
   }
 }
